@@ -1,0 +1,75 @@
+{
+  animations: [
+    {
+      path: 'sampledata/triangle1.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_50',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '243',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Color',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/triangle1.fbx',
+    name: 'triangle1',
+    recenter: 'root',
+    scale: 11.838747,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\triangle1.fbm\\243.png',
+      name: '243',
+      pipeline_name: 'triangle1.fbm\\243.png',
+    },
+    {
+      file: 'sampledata\\triangle1.fbm\\247.png',
+      name: '247',
+      pipeline_name: 'triangle1.fbm\\247.png',
+    },
+  ],
+  version: '0.54:2',
+}

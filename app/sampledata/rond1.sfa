@@ -1,0 +1,75 @@
+{
+  animations: [
+    {
+      path: 'sampledata/rond1.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_50',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '187',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Color',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/rond1.fbx',
+    name: 'rond1',
+    recenter: 'root',
+    scale: 22.672053999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\rond1.fbm\\187.png',
+      name: '187',
+      pipeline_name: 'rond1.fbm\\187.png',
+    },
+    {
+      file: 'sampledata\\rond1.fbm\\191.png',
+      name: '191',
+      pipeline_name: 'rond1.fbm\\191.png',
+    },
+  ],
+  version: '0.54:2',
+}
